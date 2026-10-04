@@ -8,8 +8,8 @@
 #include <termios.h>
 #include <poll.h>
 
-#define UART_NUCLEO_DEV "/dev/ttyS1"  /* UART4 connected to Nucleo   */
-#define UART_CAM_DEV    "/dev/ttyS0"  /* UART2 connected to Cam Board*/
+#define UART_NUCLEO_DEV "/dev/ttyS1"  /* UART4 connected to Nucleo UART6*/
+#define UART_CAM_DEV    "/dev/ttyS0"  /* UART2 connected to Cam Board UART7*/
 #define BUFFER_SIZE     2048
 
 static void configure_uart(int fd, speed_t baud)
